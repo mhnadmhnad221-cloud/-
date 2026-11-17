@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ROSHA",
+    "slug": "rosha",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.rosha.social",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_MEDIA_IMAGES",
+        "READ_MEDIA_VIDEO"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.rosha.social",
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "السماح لروشا بالوصول إلى الصور والفيديوهات لاختيار ما تريد نشره.",
+          "cameraPermission": "السماح لروشا باستخدام الكاميرا لتصوير المحتوى.",
+          "microphonePermission": "السماح لروشا باستخدام الميكروفون لتسجيل الفيديو."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "السماح لروشا باستخدام الكاميرا.",
+          "microphonePermission": "السماح لروشا باستخدام الميكروفون."
+        }
+      ]
+    ]
+  }
+}
