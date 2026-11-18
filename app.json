@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "ROSHA",
@@ -10,8 +11,12 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.mhnadmhnad221.rosha",
       "edgeToEdgeEnabled": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a14e01cf-ec1a-48d7-a955-95e6f70ed316"
+      }
     }
   }
 }
