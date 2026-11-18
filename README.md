@@ -1,23 +1,11 @@
-# ROSHA Android starter
+# Sample Snack app
 
-This is the first installable Android project scaffold for ROSHA.
+Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
 
-## What is included
-- Arabic RTL-oriented starter interface with red/gold ROSHA branding.
-- Camera launch using Expo Image Picker.
-- Photo/video library selection.
-- Local preview of the selected media.
-- EAS configuration for producing an Android APK.
+When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
 
-## Important current limitations
-This is a starter build, not yet a complete global social network. Publishing, public feeds, email/phone authentication, SMS verification, comments, likes, follows, cloud video storage, music licensing/search, and AI video generation require backend services and provider credentials. The current buttons explain which backend features are not connected yet.
+All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
 
-## Build an APK
-1. Install Node.js and EAS CLI on a computer.
-2. In this project folder run `npm install`.
-3. Run `npx eas login` and sign in to an Expo account.
-4. Run `npx eas build:configure`.
-5. Run `npx eas build --platform android --profile preview`.
-6. When the cloud build finishes, open the build link and download the APK to the Samsung phone.
+If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
 
-The APK build runs in Expo's cloud service; it cannot be produced merely by copying App.js into a browser preview.
+Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).

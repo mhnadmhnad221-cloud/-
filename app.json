@@ -1,41 +1,29 @@
 {
   "expo": {
-    "name": "ROSHA",
-    "slug": "rosha",
+    "name": "rosha",
+    "slug": "snack-92c149e7-9735-484d-8119-fe9b4d512499",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "android": {
-      "package": "com.rosha.social",
-      "versionCode": 1,
-      "permissions": [
-        "CAMERA",
-        "RECORD_AUDIO",
-        "READ_MEDIA_IMAGES",
-        "READ_MEDIA_VIDEO"
-      ]
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
     "ios": {
-      "bundleIdentifier": "com.rosha.social",
       "supportsTablet": true
     },
-    "plugins": [
-      [
-        "expo-image-picker",
-        {
-          "photosPermission": "السماح لروشا بالوصول إلى الصور والفيديوهات لاختيار ما تريد نشره.",
-          "cameraPermission": "السماح لروشا باستخدام الكاميرا لتصوير المحتوى.",
-          "microphonePermission": "السماح لروشا باستخدام الميكروفون لتسجيل الفيديو."
-        }
-      ],
-      [
-        "expo-camera",
-        {
-          "cameraPermission": "السماح لروشا باستخدام الكاميرا.",
-          "microphonePermission": "السماح لروشا باستخدام الميكروفون."
-        }
-      ]
-    ]
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
   }
 }
